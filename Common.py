@@ -11,7 +11,6 @@ def get_rmac_region_coordinates(H, W, L):
     # Desired overlap of neighboring regions
     ovr = 0.4
     # Possible regions for the long dimension
-    import pdb;pdb.set_trace()
     steps = np.array((2, 3, 4, 5, 6, 7), dtype=np.float32)
     w = np.minimum(H, W)
     
